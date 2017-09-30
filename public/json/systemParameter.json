@@ -1,0 +1,13 @@
+{
+    "cmsName": "诗画利山CMS",
+    "version": "v1.0.1",
+    "author": "ddstudio",
+    "server": "windows",
+    "dataBase": "mysql",
+    "maxUpload": "2M",
+    "userRights": "总管理员",
+    "description": "诗画利山管理系统",
+    "powerby": "copyright @2017 ddstuio",
+    "record": "京ICP备14040xxx号-1",
+    "keywords": "layui，马哥，cms，模版"
+}

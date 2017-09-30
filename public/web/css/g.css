@@ -1,0 +1,54 @@
+@charset "utf-8";
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td{margin:0;padding:0;}
+body,button,input,select,textarea{font:14px/1.5 ,tahoma,arial,\5b8b\4f53;}
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+address,cite,dfn,em,var{font-style:normal;}
+code,kbd,pre,samp{font-family:courier new,courier,monospace;}
+small{font-size:12px;}
+ul,ol{list-style:none;}
+a{text-decoration:none;}
+a:hover{text-decoration:underline;}
+sup{vertical-align:text-top;}
+sub{vertical-align:text-bottom;}
+legend{color:#000;}
+fieldset,img{border:0;}
+button,input,select,textarea{font-size:100%;}
+table{border-collapse:collapse;border-spacing:0;}
+select { font-size:14px; }
+legend { display:none; }
+address, caption, em, strong, th, i { font-style:normal; font-weight:400; }
+table caption { margin-left:-1px; }
+html, body { -webkit-text-size-adjust:none; }
+/*html { overflow:-moz-scrollbars-vertical; } Always show Firefox scrollbar*/
+table, table td, table th { border-collapse:collapse; border-spacing:0; }
+a {text-decoration:none; color:#333; outline:none; cursor:pointer; }
+a:hover { text-decoration:underline }
+/*字体*/
+.SimSun { font-family:'SimSun'; }
+/*定位*/
+.pr { position:relative; }
+.pa { position:absolute; }
+.db{display:block;}
+.zoom { zoom:1; }
+/*清除浮动*/
+.clfix{*zoom:1;}
+.clfix:after{content:'\20';display:block;height:0;clear:both;}
+.cb { clear:both; }
+/* 去除chrome输入框焦点效果 */
+input,button,select,textarea{outline:none}
+.ipt-t,.ipt-a{border:1px solid #ccc;padding:3px;}
+/*分页样式a*/
+.page-style-a{color:#999;font-size:12px;}
+.page-style-a span{margin:0 6px 0 0;display:inline-block;height:22px;border:1px solid #ededed;line-height:22px;color:#525252;}
+.page-style-a span.btn-index,.page-style-a span.btn-disable{padding:0 2px 0 2px;border:1px solid #EDEDED;}
+.page-style-a span.btn-normal{background-color:#fff;}
+.page-style-a span.page-here{padding:0 7px;border:1px solid #4465ab;color:#fff;background-color:#4465ab;font-weight:700;}
+.page-style-a a{color:#525252;display:inline-block;padding:0 8px;height:22px;line-height:22px;}
+.page-style-a span.btn-index a{color:#525252;}
+.page-style-a span a.btn-disable{cursor:text;color:#fff;}
+.page-style-a a:hover{text-decoration:none;}
+.page-style-a span.page-dot{border:none;}
+/*框架*/
+.dtu-head,
+.dtu-body,
+.dtu-foot{min-width:1000px;}

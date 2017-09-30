@@ -1,0 +1,32 @@
+[{
+	"title" : "后台首页",
+	"icon" : "icon-computer",
+	"href" : "page/main.html",
+	"spread" : false
+},{
+    "title" : "栏目管理",
+    "icon" : "&#xe614;",
+    "href" : "",
+    "spread" : false,
+    "children":[{
+        "title" : "首页介绍",
+        "icon" : "&#xe609;",
+        "href" : "page/intro/introAdd.html",
+        "spread" : false
+    },{
+        "title" : "新闻列表",
+        "icon" : "icon-text",
+        "href" : "page/news/newsList.html",
+        "spread" : false
+    },{
+        "title" : "图片轮播管理",
+        "icon" : "&#xe630;",
+        "href" : "page/img/images.html",
+        "spread" : false
+    },{
+        "title" : "美片欣赏管理",
+        "icon" : "&#xe6ed;",
+        "href" : "page/video/video.html",
+        "spread" : false
+    }]
+}]

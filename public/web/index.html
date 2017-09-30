@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+		<title>诗画利山</title>
+		<link type="text/css" rel="stylesheet" href="css/g.css">
+		<link type="text/css" rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/app.css">
+<link rel="stylesheet" href="css/lrtk.css" />
+<meta name=”viewport” content=”width=device-width,initial-scale=1, maximum-scale=1″>
+
+		<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+		<script type="text/javascript" src="js/lavalamp.min.js"></script>
+		<script type="text/javascript" src="js/lan.js"></script>
+        <script type="text/javascript" src="js/bys.js"></script>
+		<script type="text/javascript">
+			$(function(){
+				$(".lavaLamp").lavaLamp({fx:"backout", speed:700});
+			});
+			function showDetail() {
+				var bgObj				= document.getElementById("bgDiv");
+				var winH				= $(window).height();
+				bgObj.style.width		= document.body.offsetWidth + "px";
+				bgObj.style.height	= winH + "px";
+				bgObj.style.top		= "-40px";
+				//定义窗口
+				var msgObj = document.getElementById("msgDiv");
+				msgObj.style.marginTop = -75 +  document.documentElement.scrollTop + "px";
+				//关闭
+				document.getElementById("msgShut").onclick = function(){
+					bgObj.style.display = msgObj.style.display = "none";
+				}
+				msgObj.style.display = bgObj.style.display = "block";
+			}
+		</script>
+		<style>
+			.content{width:260px; height:400px; overflow:auto;}
+		</style>
+</head>
+
+
+	<body style=" position:relative;width:100%;">
+<span class="flashbody" style="  position:relative; height: 100%; width:100%;"></span>
+<div style="position:relative;">
+	<div class="top">
+				<div class="logo"><img src="image/logo4.png" ></div>
+				<div class="nav clfix" style="position:relative">
+					<div class="tab_a" id="wrapper">
+						<ul class="clfix lavaLamp">
+							<li><a href="#">首页</a></li>
+                            <li><a href="#" class="logo1">诗画利山</a></li>
+							<li><a  href="flash/quanjing/quanjing/quanjingtu/output/1.html" target="_blank" class="logo2">美丽全景</a></li>
+							<li><a href="#"  class="logo3">美片欣赏</a></li>
+							<li><a href="#"class="logo4">美丽风光</a></li>
+							<li><a href="#"class="logo5">美丽资讯</a></li>
+					  <li class="back" style="left: 15px; width: 54px; overflow: hidden;"><div class="left"></div></li></ul>
+					</div>
+				</div>
+			</div>
+			<div class="main clfix" style="height:100%;">
+				<div id="one" class="flashbody" style="text-align:center" ><img src="image/index4.jpg" style="height:100%; vertical-align:middle"></div>
+				<div id="bgDiv" style="width: 1536px; height: 752px; top: -40px; display: none;"></div>
+				<div class="pop_tab" id="msgDiv" style="left: 95px; top: 131px;">
+
+					<div class="pt_close" id="msgShut">关闭</div>
+				</div>
+				<div hidden="" class="pop_gq" id="msgDiv2" style="left: 95px; top: 201px; margin-top: -75px; display: none; text-align:center; margin:0 auto;">
+					<div class="pop_gq_box">
+						<div class="qj_flash">
+							<div class="qj_flash_intro">
+								<!--<h3>利山村介绍</h3>
+								<p>利山村位于莲都区的大港头镇，是一个有着312年建村历史的畲族古村落，那里有美丽的处州白莲和古朴的畲乡风情。而这个古村落，现在已经发生了翻天覆地的新变化。
+　莲都区大港头镇利山村党支部书记徐联法:这次美丽乡村现场会我们村变化是最大的，刚走进来就看到一个(新建)的山寨门，山寨门进来一点就是一个广场，河边新做了一个廊桥，外墙全部粉刷，道路重新修了一遍。
+利山村依山伴水，最大的特色就是整个村子围着一大片白莲修建而成，可以说是白莲深处有人家。这些整齐、漂亮的新房子都是在2009年4月份危旧房改造之后重新设计新建的，现在又再添加了更多畲族的特色。
+莲都区大港头镇利山村党支部书记徐联法:我们村是畲族村，房子造起来也有民族特色，白墙、灰瓦、马头墙，还有墙上画了一些凤凰之类的图案。
+总之是道路宽了、村庄绿了、环境美了、溪水也清了。其实，村子中央的50亩的处州白莲精品园已经是利山村的一张金名片，现在村子越变越漂亮，生态旅游的路也将是越走越宽了。 </p>
+　-->
+							</div>
+						</div>
+					</div>
+					<div class="pt_close" id="msgShut2">关闭</div>
+				</div>
+                <div class="pop_gq" id="msgDiv3" style="left: 150px; top: 201px; margin-top: -75px; display: none; margin-left:100px;">
+	<!--	  　<video src="flash/meilixiangcun3.mp4"   controls></video>
+
+-->
+					<div class="pt_close3" id="msgShut3">关闭</div>
+				</div>
+                <div class="pop_gq" id="msgDiv4" style="left: 95px; top: 201px; margin-top: -50px; display: none;">
+						<div class="htmleaf-container">
+
+		 <div class="slider">
+
+		    <div class="slider-img">
+		      <ul class="slider-img-ul">
+<!--		        <li><img src="image/img/11.jpg"></li>
+		        <li><img src="image/img/12.jpg"></li>
+		        <li><img src="image/img/13.jpg"></li>
+		        <li><img src="image/img/14.jpg"></li>
+		        <li><img src="image/img/15.jpg"></li>
+		        <li><img src="image/img/16.jpg"></li>
+		        <li><img src="image/img/17.jpg"></li>
+                <li><img src="image/img/18.jpg"></li>
+                <li><img src="image/img/19.jpg"></li>-->
+		      </ul>
+		    </div>
+
+		  </div>
+
+	</div>
+
+				<div class="pt_close4" id="msgShut4">关闭</div>
+				</div>
+<div class="pop_gq" id="msgDiv5" style="left: 95px; top: 201px; margin-top: -75px; display: none;">
+					<div class="pop_gq_box">
+						<div class="qj_flash">
+							<div class="qj_flash_intro5" style="position: relative; height: 300px; overflow-y: auto">
+                            <!--<dl>
+                               <img  src="image/0023ae80a20c1308259549.jpg">
+                               <dt>
+                               <a href="http://www.ybmoju.com/shxw/content/11821058.html" target="_blank"><h2 >手上有闲置农房？这样做有钱赚</h2></a>
+                               <dd>
+                               <p >丽水市莲都区大港头镇利山村，一个曾经名不经传的偏僻畲族小村，通过发展民宿经济，走上了从美丽乡村向美丽经济的转型发展之路。该村民宿产业能顺利发展，得益于通过探索所有权与经营权分离的新模式，让专业的人做专业的事，村民由此享受到创新发展的大“红包”。</p> <p align="right">2017年9月13日</h4>                              </dd>
+                               </dt>
+                            </dl>
+                                                        <dl>
+                               <img src="image/W020170706375773123026.jpg">
+                               <dt>
+                               <a href="http://www.liandu.gov.cn/zhxx/jrld/201707/t20170706_2157312.shtml" target="_blank"><h2 >赏诗画利山 游魅力沙溪 全省民族经济工作现场会在莲都利山村、沙溪村召开</h2></a>
+                               <dd>
+                               <p>7月3日至7月6日期间，浙江省民族经济工作培训班暨现场会在丽水市召开。来自全省各地的民族工作干部齐聚莲都，共谋少数民族经济发展蓝图，共建少数民族和少数民族地区经济社会发展“大花园”。这是省民宗委第一次在莲都区范围召开全省少数民族经济发展的专题大会。</p>  <p align="right">2017年07月06日</p>                              </dd>
+                               </dt>
+                            </dl>
+
+                              <dl>
+
+                               <img src="image/201701160425276.jpg">
+                               <dt>
+                               <a href="http://www.ls-hospital.com/info.aspx?Code=10501" target="_blank"><h2 >我院前往利山村开展“城乡结对、共建美丽乡村”活动</h2></a>
+                               <dd>
+                               <p style="color:#CCC;">1月14日上午，丽水市人民医院党办主任刘斌带领7位医学专家前往大港头镇利山村开展“城乡结对、共建美丽乡村”活动。来自骨科、全科医学、健康教育科、体检中心的医学专家为当地村民进行义诊咨询、测量血压、发放健康宣传资料，共服务村民100余人次，受到了村民的热烈欢迎。</p>   <p align="right">2017年01月16日</p>                             </dd>
+                               </dt>
+                            </dl>
+                            <dl>
+                               <img src="image/7610335_914823.jpg">
+                               <dt>
+                               <a href="http://gotrip.zjol.com.cn/system/2017/01/06/021416209.shtml" target="_blank"><h2 style="font-size:16px; color:#FFF;">乡村旅游示范38、丽水莲都区大港头镇利山村</h2></a>
+                               <dd>
+                               <p style="color:#CCC;">近年来，利山村凭借得天独厚的环境，优质的服务，获得诸多荣誉，有“长三角十佳乡村旅游景区”、“首批中国少数民族特色村寨”、丽水市十大“美丽乡村”等。现正在打造莲都区乡村旅游民宿示范村。越来越多的游客被这里的环境、风情所吸引，慕名来到利山。</p>
+                                <p align="right">2017年01月09日</p>                               </dd>
+                               </dt>
+                            </dl>
+                            <dl>
+                               <img src="image/1370682424_11092700.jpg" >
+                               <dt>
+                               <a href="http://zjls.wenming.cn/xfwm/201512/t20151216_2203552.html" target="_blank"><h2 style="font-size:16px; color:#FFF;">大港头镇利山村： 昔日小山村如莲花般绽放</h2></a>
+                               <dd>
+                               <p style="color:#CCC;">“穷在山上，苦在路上，困在没出路上。”几年前的利山村还是一个贫困落后、鲜为人知的小村落，村里到处都是危旧房，交通不便。</p>
+<p>如今，青瓦白墙，马头翘角，统一的徽派建筑整齐划一，百亩莲园昂首怒放。</p>
+ <p align="right">2015年12月16日</p>                               </dd>
+                               </dt>
+                            </dl>-->
+
+						  </div>
+						</div>
+	  </div>
+					<div class="pt_close" id="msgShut5">关闭</div>
+			  </div>
+
+
+			</div>
+			<div class="foot"><span><i>©2017</i> 诗画利山版权所有&nbsp;&nbsp;<i></i></span></div>
+
+	</div>
+    	<script>window.jQuery || document.write('<script src="js/jquery-1.11.0.min.js"><\/script>')</script>
+	<script type="text/javascript" src="./js/xSlider.js"></script>
+<script type="text/javascript">
+
+    $.ajax({
+        url:"http://10.30.210.115:8081/users/getIntro",
+        type:"get",
+        success:function (data) {
+            if(data.statusCode === 0){
+                let introContent = data.result;
+                $('#msgDiv2 .qj_flash_intro').html(introContent);
+            }
+        },
+        error:function (data) {
+            console.log(data);
+        }
+    })
+    $.ajax({
+        url:"http://10.30.210.115:8081/users/getVideoSrc",
+        type:"get",
+        success:function (data) {
+            if(data.statusCode === 0){
+                console.log(12)
+                let video_src = data.result;
+                let video = '<video src="../images/upload/meipianxinshang/'+video_src+'" controls></video>';
+                $('#msgDiv3').append(video);
+            }
+        },
+        error:function (data) {
+            console.log(data);
+        }
+    })
+    $.ajax({
+        url:"http://10.30.210.115:8081/users/getNewsList",
+        type:"get",
+        success:function (data) {
+            if(data.statusCode === 0){
+                let newsList = data.result;
+                for(let item of newsList){
+                    let htmlTable = '<dl>'
+                        +'<img src="../images/upload/news/'+item.news_img+'" >'
+                        +'<dt>'
+                        +   '<a href="http://www.ybmoju.com/shxw/content/11821058.html" target="_blank"><h2 style="font-size:16px; color:#FFF;">'+item.news_title+'</h2></a>'
+                        +   '<dd>'
+                        +   '<p style="color:#CCC;">'+item.news_content+'</p>'
+                        +   '<p align="right">'+item.add_time+'</p>'
+                        +   '</dd>'
+                        +'</dt>'
+                        +'</dl>';
+                    $('#msgDiv5 .qj_flash_intro5').append(htmlTable);
+                }
+            }
+        },
+        error:function (data) {
+            console.log(data);
+        }
+    })
+</script>
+<script type="text/javascript">
+    $('.lavaLamp li').eq(3).click(function () {
+        $('#msgDiv3').css({
+            'left':'50%',
+            'marginLeft':'-475px'
+        })
+    })
+</script>
+</body>
+</html>
