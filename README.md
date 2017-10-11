@@ -1,4 +1,3 @@
 ﻿# 诗画利山
-![](https://github.com/YannPro/shls/demo1.gif )  
-
-![](https://github.com/YannPro/shls/demo2.gif )  
+![](http://oxe993ep0.bkt.clouddn.com/demo1.gif)  
+![](http://oxe993ep0.bkt.clouddn.com/demo2.gif)  
